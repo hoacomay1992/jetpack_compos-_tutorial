@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JpackComponentComposeTutorial"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.SnackbarComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_snackbar_compose"
+            android:theme="@style/Theme.JpackComponentComposeTutorial">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.NavigationDrawerComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_navigation_drawer_compose"
+            android:theme="@style/Theme.JpackComponentComposeTutorial" />
+
+        <activity
+            android:name=".ui.BottomSheetComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_bottom_sheet_compose"
+            android:theme="@style/Theme.JpackComponentComposeTutorial" />
+        <activity
+            android:name=".ui.SwitchComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_switch_compose"
+            android:theme="@style/Theme.JpackComponentComposeTutorial" />
+        <activity
+            android:name=".ui.SliderComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_slider_compose"
+            android:theme="@style/Theme.JpackComponentComposeTutorial" />
+        <activity
+            android:name=".ui.ProgressIndicatorComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_progress_indicator_compose"
+            android:theme="@style/Theme.JpackComponentComposeTutorial" />
+        <activity
+            android:name=".ui.DialogComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_dialog_compose"
+            android:theme="@style/Theme.JpackComponentComposeTutorial" />
+        <activity
+            android:name=".ui.ChipComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_chip_compose"
+            android:theme="@style/Theme.JpackComponentComposeTutorial" />
+        <activity
+            android:name=".ui.CardComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_card_compose"
+            android:theme="@style/Theme.JpackComponentComposeTutorial" />
+        <activity
+            android:name=".ui.AppBarComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_app_bar_compose"
+            android:theme="@style/Theme.JpackComponentComposeTutorial" />
+        <activity
+            android:name=".ui.ScaffoldComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_scaffole_cpmpose"
+            android:theme="@style/Theme.JpackComponentComposeTutorial" />
+        <activity
+            android:name=".ui.ButtonComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_button_compose"
+            android:theme="@style/Theme.JpackComponentComposeTutorial" />
+        <activity
+            android:name=".ui.ImageActivity"
+            android:exported="true"
+            android:label="@string/title_activity_image"
+            android:theme="@style/Theme.JpackComponentComposeTutorial" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.JpackComponentComposeTutorial" />
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">JpackComponentComposeTutorial</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_button_compose">ButtonComposeActivity</string>
+    <string name="title_activity_scaffole_cpmpose">ScaffoleCpmposeActivity</string>
+    <string name="title_activity_app_bar_compose">AppBarComposeActivity</string>
+    <string name="title_activity_card_compose">CardComposeActivity</string>
+    <string name="title_activity_chip_compose">ChipComposeActivity</string>
+    <string name="title_activity_dialog_compose">DialogComposeActivity</string>
+    <string name="title_activity_progress_indicator_compose">ProgressIndicatorComposeActivity</string>
+    <string name="title_activity_slider_compose">SliderComposeActivity</string>
+    <string name="title_activity_switch_compose">SwitchComposeActivity</string>
+    <string name="title_activity_bottom_sheet_compose">BottomSheetComposeActivity</string>
+    <string name="title_activity_navigation_drawer_compose">NavigationDrawerComposeActivity</string>
+    <string name="title_activity_snackbar_compose">SnackbarComposeActivity</string>
+</resources>
